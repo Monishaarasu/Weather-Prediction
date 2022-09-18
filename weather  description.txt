@@ -1,0 +1,29 @@
+Logistic Regression
+Agenda
+we will cover the following concepts with the help of a business use case:
+
+EDA (Exploratory Data Analysis)
+Data Cleaning
+Logistic Regression with Sklearn
+Use Case: Logistic Regression
+Note: At first, with the help of a use case, we are going to perform all the basic steps to reach the training and predicition part.
+
+Problem Statement
+One of the aspects Seattle is most notable for, in addition to coffee, grunge, and electronic businesses, is its rains. From January 1, 1948 to December 12, 2017, this dataset provides full records of Seattle's daily rainfall patterns.
+
+Data Dictionary
+Following are the variables with their definition and key:
+
+Variables	Description
+DATE	The date of the observation
+PRCP	The amount of precipitation, in inches
+MAX	The maximum temperature for that day, in degrees Fahrenheit
+TMIN	The minimum temperature for that day, in degrees Fahrenheit
+RAIN	TRUE if rain was observed on that day, FALSE if it was not
+Solution
+Import Libraries
+Pandas is a Python library for data manipulation and analysis.
+NumPy is a package that contains a multidimensional array object and several derived ones.
+Matplotlib is a Python visualization package for 2D array plots.
+Seaborn is built on top of matplotlib. It's used for exploratory data analysis and data visualization.
+To work with dates as date objects, use Datetime.
